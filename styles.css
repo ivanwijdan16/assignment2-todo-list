@@ -1,0 +1,89 @@
+.my-primary {
+  background-color: #222831;
+  color: #a7d129;
+}
+
+.my-color {
+  background-color: #eeeeee;
+  color: #222831;
+}
+
+.title {
+  font-family: Tahoma;
+}
+
+.main-form input[type="text"] {
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.my-btn {
+  background-color: #3b445b;
+  color: #a7d129;
+  font-weight: 500;
+  border: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.my-btn .fas {
+  margin-right: 10px;
+}
+
+.my-btn:hover {
+  background-color: #a7d129;
+  color: #3b445b;
+}
+
+.card-body {
+  background-color: #3b445b;
+}
+
+.fill-todo {
+  padding: 10px;
+}
+
+.task input[type="text"] {
+  width: 100%;
+}
+
+.task {
+  padding: 30px 30px 30px 30px;
+  background: #eeeeee;
+  color: #222831;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: move;
+  position: relative;
+}
+
+.task i.fa-trash {
+  color: #c70039;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.task i.fa-pencil {
+  color: #1e5128;
+  position: absolute;
+  top: 10px;
+  right: 45px;
+  cursor: pointer;
+}
+
+.dragging {
+  padding: 30px 30px 30px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background: #222831;
+  color: #ffffff;
+}
